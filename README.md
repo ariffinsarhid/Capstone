@@ -18,6 +18,8 @@ In the project, I will be using dataset from Bureau Transportation of Statistics
 
 
 ## Data Glossary
+After cleaning and doing some EDA, I came up with this set of features that I will use for the modeling. In order to avoid data leakage, these features are carefully selected based on my domain knowledge so as there will be no future data provided to the model. 
+
 |Feature|Description|
 |----|----|
 |year|Year|
@@ -40,7 +42,18 @@ In the project, I will be using dataset from Bureau Transportation of Statistics
 |airline|Airline Name|
 |destcity|Destination City Name|
 
-As a rule of thumb in the aviation industry, a flight is considered delay when it arrived at the destination airport more than 15 minutes than the scheduled arrival time. My target variable (y-axis) will be 'arrdel15'. 
+---
+
+## Methodology
+As a rule of thumb in the aviation industry, a flight is considered delay when it arrived at the destination airport more than 15 minutes than the scheduled arrival time. My target variable (y-axis) will be 'arrdel15'. I will be running all data from 2018 to 2020 from the final_table.csv to 2 models which are Logistic Regression and Random Forest. After which, I will extract the 10 best features combined from the 2 models first run to rerun again for the second time in hope to get better score. 
+
+
+### Metric
+The metrics used for this project is ROC-AUC score since there is an signifant imbalance in the data. Secondary to that I will also observe and rank the siginifant of each feature. 
+
+
+### Data Imbalance
+The data imbalance will be treated with class weight - balance in the model. 
 
 ---
 
