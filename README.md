@@ -7,6 +7,7 @@
  * [Methodology](##Methadology)
  * [Model-Score](##Model-Score)
  * [Conclusion](##Conclusion)
+ * [Opportunity For Improvement](##Opportunity For Improvement)
  
 
 ## Problem Statement
@@ -72,5 +73,15 @@ Second Run
 |Logistic Regression|64.5|63.8%|59%|64.2%|
 |Random Forest|63.8%|63.3%|67%|63.1%|
 
+---
 
+## Conclusion
+
+
+---
+
+## Opportunity For Improvement
+- Run other classification model such as Gradient Boost or a much simpler one such as Decision Tree
+- Project has the potential to go beyond by predicting the minutes delay
+- Further study on the dataset from Covid Impact. 
 
