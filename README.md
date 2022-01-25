@@ -1,4 +1,4 @@
-# Predicting Airline On-Time Performance (In-Progress)
+# Predicting Airline On-Time Performance
 
 ---
 ## Content
