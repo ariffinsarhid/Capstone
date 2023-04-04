@@ -6,8 +6,7 @@
  * [Dataset](##Dateset)
  * [Methodology](##Methadology)
  * [Model-Score](##Model-Score)
- * [Conclusion](##Conclusion)
- * [Opportunity For Improvement](##Opportunity For Improvement)
+ * [Opportunity For Improvement](##Opportunity-For-Improvement)
  
 
 ## Problem Statement
